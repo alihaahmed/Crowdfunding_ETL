@@ -24,8 +24,8 @@ CREATE TABLE campaign (
 	contact_id INT NOT NULL,
 	company_name VARCHAR(50) NOT NULL,
 	description VARCHAR(255) NOT NULL,
-	goal numeric(10,2) NOT NULL,
-	pledged numeric(10,2) NOT NULL,
+	goal FLOAT NOT NULL,
+	pledged FLOAT NOT NULL,
 	outcome VARCHAR(10) NOT NULL,
 	backers_count INT NOT NULL,
 	country CHAR(2) NOT NULL,
@@ -38,4 +38,3 @@ CREATE TABLE campaign (
 	FOREIGN KEY (category_id) REFERENCES category(category_id),
 	FOREIGN KEY (subcategory_id) REFERENCES subcategory(subcategory_id)
 	);
-

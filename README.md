@@ -16,14 +16,14 @@ The steps taken in this project are divided into the following subsections:
 - A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
 - A "category" column that contains only the category titles
 
-2. Exported the category DataFrame as category.csv and saved to repository under "Resources" folder.
+2. Exported the category DataFrame as category.csv and saved to repository under "Resources" folder
 
 3. Extracted and transformed the crowdfunding.xlsx file to create a subcategory DataFrame with the following columns:
 
 - A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
 - A "subcategory" column that contains only the subcategory titles
 
-4. Exported the subcategory DataFrame as subcategory.csv and saved to repository under "Resources" folder.
+4. Exported the subcategory DataFrame as subcategory.csv and saved to repository under "Resources" folder
 
 ## Create the Campaign DataFrame
 
@@ -44,7 +44,7 @@ The steps taken in this project are divided into the following subsections:
 - "category_id" column, with unique identification numbers matching those in the "category_id" column of the category DataFrame
 - "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
 
-2. Exported the campaign DataFrame as campaign.csv and saved to repository under "Resources" folder.
+2. Exported the campaign DataFrame as campaign.csv and saved to repository under "Resources" folder
 
 ## Create the Contacts DataFrame
 
@@ -63,7 +63,7 @@ The steps taken in this project are divided into the following subsections:
 
 2. Used ERD to create a table schema for each CSV file, specifying the appropriate data types, primary keys, foreign keys, and other constraints
 
-3. Saved the database schema as a Postgres file named crowdfunding_db_schema.sql and saved to repository under "Crowdfunding_Database_Schema" folder.
+3. Saved the database schema as a Postgres file named crowdfunding_db_schema.sql and saved to repository under "Crowdfunding_Database_Schema" folder
 
 4. Created a new Postgres database (crowdfunding_db) 
 

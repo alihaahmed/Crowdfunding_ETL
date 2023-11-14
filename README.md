@@ -4,10 +4,10 @@
 
 The steps taken in this project are divided into the following subsections:
 
-1. Create the Category and Subcategory DataFrames
-2. Create the Campaign DataFrame
-3. Create the Contacts DataFrame
-4. Create the Crowdfunding Database
+1. Create Category and Subcategory DataFrames
+2. Create Campaign DataFrame
+3. Create Contacts DataFrame
+4. Create Crowdfunding Database
 
 ## Create the Category and Subcategory DataFrames
 
